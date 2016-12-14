@@ -1,0 +1,29 @@
+{
+  "name": "moviestub",
+  "version": "0.0.1",
+  "description": "Movies library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/jaalinoe/angularTutorial.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "Adam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/jaalinoe/angularTutorial/issues"
+  },
+  "homepage": "https://gitlab.com/jaalinoe/angularTutorial#README",
+  "devDependencies": {
+    "express": "^4.13.4"
+  },
+  "dependencies": {
+    "morgan": "^1.6.1",
+    "urlencoded-request-parser": "^1.0.1"
+  }
+}

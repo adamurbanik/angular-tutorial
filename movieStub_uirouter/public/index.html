@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html data-ng-app="movieStubApp">
+
+<head>
+    <title>Movie Stub - Book Movie Tickets Online</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <script type="text/javascript" src="js/lib/angular.min.js"></script>
+    <script type="text/javascript" src="js/lib/angular-route.min.js"></script>
+    <script type="text/javascript" src="js/lib/angular-resource.min.js"></script>
+    <script type="text/javascript" src="js/lib/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/controller/app.js"></script>
+    <script type="text/javascript" src="js/router/router.js"></script>
+    <script type="text/javascript" src="js/service/services.js"></script>
+</head>
+
+<body class="container" ng-controller="movieStubController">
+    <div ng-include="'tmpl/header.html'"></div>
+    <div ui-view></div>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+movieStub/bower_components/
+movieStub/node_modules/
+movieStub_uirouter/bower_components/
+movieStub_uirouter/node_modules/
+npm-debug.log
